@@ -27,6 +27,7 @@ export interface BlocksHero extends Struct.ComponentSchema {
     displayName: 'Hero';
   };
   attributes: {
+    backgroundImage: Schema.Attribute.Media<'images'>;
     content: Schema.Attribute.Text;
     heading: Schema.Attribute.String;
     images: Schema.Attribute.Media<

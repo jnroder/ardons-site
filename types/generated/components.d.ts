@@ -10,6 +10,17 @@ export interface BlocksFeatures extends Struct.ComponentSchema {
   };
 }
 
+export interface BlocksGallery extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_galleries';
+  info: {
+    displayName: 'Gallery';
+  };
+  attributes: {
+    heading: Schema.Attribute.String;
+    images: Schema.Attribute.Media<'images', true> & Schema.Attribute.Required;
+  };
+}
+
 export interface BlocksHero extends Struct.ComponentSchema {
   collectionName: 'components_blocks_heroes';
   info: {
@@ -55,6 +66,7 @@ declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
       'blocks.features': BlocksFeatures;
+      'blocks.gallery': BlocksGallery;
       'blocks.hero': BlocksHero;
       'blocks.social-links': BlocksSocialLinks;
       'components.feature-items': ComponentsFeatureItems;

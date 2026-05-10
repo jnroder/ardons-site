@@ -19,7 +19,12 @@
     },
     "blocks": {
       "type": "dynamiczone",
-      "components": ["blocks.hero", "blocks.features", "blocks.social-links"]
+      "components": [
+        "blocks.hero",
+        "blocks.features",
+        "blocks.social-links",
+        "blocks.gallery"
+      ]
     }
   }
 }

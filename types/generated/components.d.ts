@@ -29,6 +29,7 @@ export interface BlocksHero extends Struct.ComponentSchema {
   attributes: {
     backgroundImage: Schema.Attribute.Media<'images'>;
     content: Schema.Attribute.Text;
+    ctaText: Schema.Attribute.String;
     heading: Schema.Attribute.String;
     images: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios',

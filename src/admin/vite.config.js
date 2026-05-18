@@ -10,7 +10,7 @@ module.exports = (config) => {
     },
     server: {
       // Option 1: Provide a list of specific allowed hostnames
-      allowedHosts: ['roderbuilt.com'],
+      allowedHosts: ['roderbuiltconstruction.com'],
     },
   });
 };

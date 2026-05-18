@@ -1,0 +1,12 @@
+[nginx-4xx]
+enabled = true
+port = http,https
+filter = nginx-4xx
+logpath = /var/log/nginx/access.log
+# Ban for 10 hour (36000 seconds)
+bantime = 36000
+# Look back 30 seconds
+findtime = 30
+# Allow 3 failures before ban
+maxretry = 3
+backend = auto

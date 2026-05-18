@@ -28,10 +28,10 @@
   },
   "dependencies": {
     "@strapi/client": "^1.6.1",
-    "@strapi/plugin-cloud": "5.45.0",
-    "@strapi/plugin-users-permissions": "5.45.0",
+    "@strapi/plugin-cloud": "5.46.0",
+    "@strapi/plugin-users-permissions": "5.46.0",
     "@strapi/provider-email-nodemailer": "^5.46.0",
-    "@strapi/strapi": "5.45.0",
+    "@strapi/strapi": "5.46.0",
     "better-sqlite3": "12.8.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
